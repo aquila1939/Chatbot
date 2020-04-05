@@ -10,6 +10,7 @@ WARNINGS:
     > conda activate name-of-environment
 3. Now that you have your virtual environment ready, download all the necessary modules. It is of utmost importance that when you download    tesorflow module, be sure to do it by writing 
     > pip install tensorflow==1.4
+   
    This is done because the newer version 2.0 of Tensorflow doesn't work well with the tflearn library.
 
 When it's all done and dusted, run the script whichever way you like.
