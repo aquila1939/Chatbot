@@ -1,0 +1,51 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you?", "Is anyone there?", "Hello", "Good day", "Whats up?"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "I'm here to help!!"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old?", "what is your age?", "how old are you?", "age?"],
+         "responses": ["I am 19 years old!", "19 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name?", "what should I call you?", "whats your name?", "who are you?"],
+         "responses": ["You can call me Arcane. ", "I'm Arcane!"],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you recommend", "could i get something to eat", "what do you sell", "what do you do", "what is your purpose?"],
+         "responses": ["We sell pizzas!", "Pizzas are on the menu!", "Would you like some pizzas?"],
+         "context_set": ""
+        },
+        {"tag": "wantPizza",
+         "patterns": ["Yes", "I like pizza", "Ill have the pizza", "Ill have a pizza"],
+         "responses": ["Well then, you can place the order on the phone 98xxxxxxxx(I'm not smart enough to take orders :)"],
+         "context_set": ""
+        },
+        {"tag": "noPizza",
+         "patterns": ["No", "i dont like pizza", "i don't want pizza"],
+         "responses": ["I am sorry to inform that we can't serve anything else at the present moment. Sorry for the inconvenience"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation","are you open today"],
+         "responses": ["We are open 10am-10pm Monday-Sunday!"],
+         "context_set": ""
+        },
+        {"tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+       },
+       {"tag": "payments",
+        "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+        "responses": ["So long as you have money in any form, we'll accept it.", "We accept most major credit cards"]
+       }
+   ]
+}
