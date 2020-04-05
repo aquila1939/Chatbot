@@ -1,0 +1,2 @@
+# Chatbot
+This chatbot has been built from scratch without using any API. The only concept used in the project is that of Natural Language Processing and Deep Neural Networks. The chatbot is limited in its capability of conversing, but I'll build on that in the near future. This chatbot is built to be used in a restaurant that mainly serves pizzas. Take a look at the intents.json file to understand how the chatbot is built to answer some common queries.
