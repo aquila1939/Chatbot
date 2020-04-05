@@ -6,6 +6,7 @@ WARNINGS:
 2. If however you have a python version greater than 3.6, I suggest creating a virtual environment of python 3.6 and installing all the      required packages and modules there.
     To do this go to your directory in command line and type 
     > conda create -n name-of-environment python=3.6
+    
     > conda activate name-of-environment
 3. Now that you have your virtual environment ready, download all the necessary modules. It is of utmost importance that when you download    tesorflow module, be sure to do it by writing 
     > pip install tensorflow==1.4
